@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!-- viewport declaration for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- page information -->
+    <meta name="description" content="Reviews of the class INFO 343 with Joel Ross">
+    <meta name="author" content="Jessica Kuelz">
+    <title>INFO 343 Reviews</title>
+
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Font awesome stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- raty stylesheet -->
+    <link rel="stylesheet" href="css/jquery.raty.css">
+    <!-- css stylesheet -->
+    <link rel = "stylesheet" href= "css/main.css"/>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="header">
+            <h1>Review of <a href="http://info343-joelross.rhcloud.com/">INFO 343</a></h1>
+            <h2>Client-Side Web Development</h2>
+            <div id="avg-stars"></div><br>
+            <blockquote id="class-description" cite="http://www.washington.edu/students/crscat/info.html">Introduction to client-side web development including markup, programming, protocols, libraries, frameworks, and techniques for creating effective, usable, dynamic, and responsive applications that meet user needs. Includes an introduction to web development roles within organizations, content management systems, and other tools to build and manage websites and applications. </blockquote>
+            <img src="img/INFO343home.jpg" id="header-img">
+        </div>
+
+        <div id="createReview" class="container">
+            <h2>Create a review for this class:</h2>
+            <form id="reviewForm">
+                <input class="formInput" type="text" name="reviewTitle" id="reviewTitle" size="50" autocorrect="off" placeholder="Title of your review"><br>
+                <div id="star"></div><br>
+                <textarea class="formInput" id="reviewBody" rows="3" cols="75" placeholder="Review description..."></textarea><br>
+                <button class="formInput" id="submit-review" class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <h1 class="reviewArchive">Previous Reviews</h1>
+        <div id="oldReviews"></div><br>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    
+    <!-- Parse.com library -->
+    <script src="//www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+
+    <!-- Raty library -->
+    <script src="js/jquery.raty.js"></script>
+
+    <!-- Script file -->
+    <script src= "js/script.js"></script>
+</body>
+</html>

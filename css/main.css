@@ -1,0 +1,64 @@
+
+#header {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#header-img {
+	border: 1px solid;
+	border-radius: 5px;
+	width: 50%;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h3 {
+	margin-top: 10px;
+}
+
+form {
+	border: 1px solid;
+	padding: 10px;
+}
+
+#reviewForm {
+	padding: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
+
+/*.formInput {
+	background-color: whitesmoke;
+}*/
+
+#review-content {
+	border-left: 3px solid;
+	padding-left: 5px;
+	border-left-color: darkgray;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.prevReview, #header {
+	border: 1px solid;
+	margin: 15px;
+	padding-left: 10px;
+	background-color: lightgrey;
+	border-radius: 5px;
+}
+
+.thumbUp, .thumbDown, .trash {
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: right;
+	float: right; 
+}
+
+textarea, #reviewTitle {
+	width: 75%;
+	margin-bottom: 5px;
+}
